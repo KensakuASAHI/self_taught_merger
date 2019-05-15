@@ -1,0 +1,3 @@
+[submodule "self_taught"]
+	path = self_taught
+	url = https://github.com/calthoff/self_taught.git
