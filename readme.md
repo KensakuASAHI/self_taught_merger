@@ -1,6 +1,6 @@
 Description
 ===========
-This Python code "meger.py" generates a single HTML file form Python codes of "the self taught programmer"
+This Python code "meger.py" generates a single HTML file from Python codes of "the self taught programmer"
 
 How to run
 ==========
