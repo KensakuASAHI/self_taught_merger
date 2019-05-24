@@ -32,9 +32,8 @@ def main():
 # Read a file and output HTML content part
 def import_file(filename, n):
     # Read from file
-    fp = open(filename, "r")
-    contents = fp.read()
-    fp.close()
+    with open(filename, "r", encoding="utf-8") as fp:
+        contents = fp.read()
     # Output file contetns
     name_part = pathlib.Path(filename).name
     print('<div id="fid' + str(n) + '">')
